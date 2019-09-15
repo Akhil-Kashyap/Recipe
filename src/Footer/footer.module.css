@@ -1,0 +1,55 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background: #283e4a;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'Acme', sans-serif;
+}
+
+.email {
+	color: white;
+	text-decoration: none;
+}
+
+.email:hover {
+	color: grey;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.github {
+	text-decoration: none;
+	color: white;
+}
+
+.github:hover {
+	color: grey;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.linkedin {
+	text-decoration: none;
+	color: white;
+}
+
+.linkedin:hover {
+	color: grey;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.api {
+	text-decoration: none;
+	color: white;
+}
+
+.api:hover {
+	color: grey;
+	text-decoration: none;
+	cursor: pointer;
+}

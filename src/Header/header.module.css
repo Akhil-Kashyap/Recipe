@@ -1,0 +1,38 @@
+.info {
+	background: black;
+}
+
+.name {
+	font-family: 'Lobster', cursive;
+	font-size: 55px;
+	color: white;
+	margin-left: 3px;
+}
+
+.tagline {
+	font-family: 'Lobster', cursive;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+}
+
+.line {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5px;
+}
+
+.title {
+	padding-top: 4px;
+	display: flex;
+}
+
+.img {
+	height: 95px;
+	width: 95px;
+	margin-top: -14px;
+	margin-left: -5px;
+}
