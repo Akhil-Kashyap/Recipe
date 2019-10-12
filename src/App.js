@@ -25,7 +25,7 @@ const App = () => {
 	);
 
 	const getRecipes = async () => {
-		const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${id}&app_key=${key}`);
+		const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${id}&app_key=${key}`); //fetching key
 		const data = await response.json();
 		setRecipes(data.hits);
 		if (data.q !== '' && data.hits.length === 0) {
@@ -49,7 +49,7 @@ const App = () => {
 		setLoader(true);
 	};
 
-	setTimeout(() => {
+	setTimeout(() => {			//timeout function
 		setLoader(false);
 	}, 5000);
 
